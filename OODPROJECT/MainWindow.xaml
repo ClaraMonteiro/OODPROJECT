@@ -1,0 +1,39 @@
+﻿<Window x:Class="OODPROJECT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OODPROJECT"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="57*"/>
+            <ColumnDefinition Width="31*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox HorizontalAlignment="Left" Height="187" Margin="195,78,0,0" VerticalAlignment="Top" Width="248" RenderTransformOrigin="0.466,0.466"/>
+        <ComboBox HorizontalAlignment="Left" Margin="16.019,78,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.464,-1.396" Grid.Column="1"/>
+        <ComboBox HorizontalAlignment="Left" Margin="16.019,128,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.507,0.607" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="88.019,290,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="136" Height="102" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="186,348,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="357" Grid.ColumnSpan="2"/>
+        <RadioButton Content="Men" HorizontalAlignment="Left" Margin="24,92,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Women" HorizontalAlignment="Left" Margin="24,124,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Kids" HorizontalAlignment="Left" Margin="24,166,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="121,24,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="292,290,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="32,24,0,0" VerticalAlignment="Top" Width="58" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="Select Shoes" HorizontalAlignment="Left" Margin="274,47,0,0" VerticalAlignment="Top" Width="93" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="Information" HorizontalAlignment="Left" Margin="67,348,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label Content="Colour" HorizontalAlignment="Left" Margin="467,124,0,0" VerticalAlignment="Top"/>
+        <Label Content="Size" HorizontalAlignment="Left" Margin="467,78,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.601,-0.383"/>
+        <Label Content="Date" HorizontalAlignment="Left" Margin="292,24,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+        <ComboBox HorizontalAlignment="Left" Margin="467,215,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <ComboBox HorizontalAlignment="Left" Margin="139.019,215,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <Label Content="Select Design" HorizontalAlignment="Left" Margin="47.019,47,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" Grid.Column="1"/>
+        <Label Content="Left" HorizontalAlignment="Left" Margin="498,183,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Label Content="Right" HorizontalAlignment="Left" Margin="172.019,183,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label Content="Results" HorizontalAlignment="Left" Margin="115.019,256,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" Grid.Column="1"/>
+        <DatePicker HorizontalAlignment="Left" Margin="341,21,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
